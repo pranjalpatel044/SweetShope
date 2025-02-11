@@ -24,5 +24,4 @@ HTML for the structure of the website.
 
 CSS for styling and layout.
 
-JavaScript (optional) for enhancing user interactions.
 
