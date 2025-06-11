@@ -1,27 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Welcome to Our Website</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SweetShope - Delicious Sweets Online</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>Welcome to Our Website</h1>
-    <nav class="navbar">
-      <a href="privacy.html">Privacy Policy</a> |
-      <a href="terms.html">Terms & Conditions</a> |
-      <a href="refund.html">Refund Policy</a> |
-      <a href="contact.html">Contact Us</a>
+    <h1>SweetShope</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
     </nav>
   </header>
 
-  <main>
-    <p>This is the homepage. Use the navigation above to visit other sections.</p>
-  </main>
+  <section class="hero">
+    <h2>Fresh & Delicious Sweets Delivered to Your Doorstep!</h2>
+    <p>Order now and enjoy traditional Indian sweets made with love and quality ingredients.</p>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Our Bestsellers</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150.png?text=Kaju+Katli" alt="Kaju Katli"/>
+        <h3>Kaju Katli</h3>
+        <p>Rich cashew sweet, perfect for every occasion.</p>
+        <p class="price">₹450 / 500g</p>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150.png?text=Gulab+Jamun" alt="Gulab Jamun"/>
+        <h3>Gulab Jamun</h3>
+        <p>Soft, syrup-soaked sweet balls – melt in your mouth!</p>
+        <p class="price">₹350 / 500g</p>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150.png?text=Ladoo" alt="Motichoor Ladoo"/>
+        <h3>Motichoor Ladoo</h3>
+        <p>Golden, bite-sized laddoos for festive moments.</p>
+        <p class="price">₹300 / 500g</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
 
   <footer>
-    &copy; 2025 Your pranjal patel
+    <p>&copy; 2025 SweetShope | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a></p>
   </footer>
 </body>
 </html>
